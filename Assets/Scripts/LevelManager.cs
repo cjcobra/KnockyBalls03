@@ -116,6 +116,11 @@ public class LevelManager : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    public void RestartGame()
+    {
+        MainMenu();
+        ResetToLevel1();
+    }
 
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
