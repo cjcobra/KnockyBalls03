@@ -16,7 +16,7 @@ public class Platform_Movement : MonoBehaviour
     void Update()
     {
 
-           transform.position = new Vector3(transform.position.x, Mathf.PingPong(Time.time * platformSpeed, 5), transform.position.z);
+        //   transform.position = new Vector3(transform.position.x, Mathf.PingPong(Time.time * platformSpeed, 5), transform.position.z);  WORKED
     //    transform.Translate (platformSpeed * Time.deltaTime, 0);
 
     }

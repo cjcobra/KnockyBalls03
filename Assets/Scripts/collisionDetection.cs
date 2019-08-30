@@ -16,7 +16,7 @@ public class collisionDetection : MonoBehaviour
     void Start()
     {
         countBricks = GameObject.FindGameObjectsWithTag("Brick").Length;
-        Debug.Log(countBricks);
+        //Debug.Log(countBricks);
 
         YouWon.text = "";
 

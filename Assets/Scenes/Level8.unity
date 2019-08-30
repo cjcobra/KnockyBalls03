@@ -3384,7 +3384,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &429575693
 Transform:
   m_ObjectHideFlags: 0
@@ -3406,7 +3406,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429575692}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d793fd61ff193c4d89f70b44ed92763, type: 3}
   m_Name: 
@@ -3490,7 +3490,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &429743781
 Transform:
   m_ObjectHideFlags: 0
@@ -3512,7 +3512,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429743780}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d793fd61ff193c4d89f70b44ed92763, type: 3}
   m_Name: 
@@ -3692,7 +3692,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &478436914
 Transform:
   m_ObjectHideFlags: 0
@@ -3705,7 +3705,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1569814413}
-  m_RootOrder: 68
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &478436915
 MonoBehaviour:
@@ -3714,7 +3714,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 478436913}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d793fd61ff193c4d89f70b44ed92763, type: 3}
   m_Name: 
@@ -4242,7 +4242,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &592282570
 Transform:
   m_ObjectHideFlags: 0
@@ -4264,7 +4264,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 592282569}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d793fd61ff193c4d89f70b44ed92763, type: 3}
   m_Name: 
@@ -11328,6 +11328,7 @@ Transform:
   - {fileID: 1614867422}
   - {fileID: 1546517737}
   - {fileID: 592282570}
+  - {fileID: 478436914}
   - {fileID: 1581389147}
   - {fileID: 1014391845}
   - {fileID: 1033130982}
@@ -11369,7 +11370,6 @@ Transform:
   - {fileID: 1258260831}
   - {fileID: 440992360}
   - {fileID: 2142643509}
-  - {fileID: 478436914}
   - {fileID: 1629408390}
   - {fileID: 1684287090}
   - {fileID: 1486921599}

@@ -49,7 +49,7 @@ public class playerScript02 : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, 1000))
+        if (Physics.Raycast(ray, out hit, bulletSpeed))  // CJ Was 1000
         {
             targetPosition = hit.point;
             //   this.transform.LookAt(targetPosition);
